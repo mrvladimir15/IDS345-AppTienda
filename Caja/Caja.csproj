@@ -134,14 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="DS_Caja.xsc">
       <DependentUpon>DS_Caja.xsd</DependentUpon>
     </None>
@@ -161,6 +156,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -174,12 +174,6 @@
     <None Include="Resources\visibility.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\minus.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="BD_Caja.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -187,8 +181,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>BD_Caja.mdf</DependentUpon>
     </Content>
-    <None Include="Resources\squares.png" />
+    <None Include="Resources\cotizacion %281%29.png" />
+    <None Include="Resources\candado-abierto.png" />
+    <None Include="Resources\candado.png" />
+    <None Include="Resources\shutdown.png" />
+    <None Include="Resources\reporte-de-negocios.png" />
+    <None Include="Resources\historial-de-transacciones.png" />
+    <None Include="Resources\transaccion-monetaria %282%29.png" />
     <None Include="Resources\square.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\minus %281%29.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\cash-register.png" />
+    <None Include="Resources\credit-cards.png" />
+    <None Include="Resources\money.png" />
     <None Include="Resources\50pesos.jpg" />
     <None Include="Resources\100pesos.jpg" />
     <None Include="Resources\200pesos.jpg" />

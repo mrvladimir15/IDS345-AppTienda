@@ -30,34 +30,37 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Principal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCerrarCaja = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblNombreApellido = new System.Windows.Forms.Label();
             this.lblRol = new System.Windows.Forms.Label();
             this.btnCuadreTransacciones = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
-            this.btnFacturacion = new System.Windows.Forms.Button();
             this.btnAbrirCaja = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.btnCerrar = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCotizaciones = new System.Windows.Forms.Button();
+            this.btnFacturacion = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
+            this.panel1.Controls.Add(this.btnCotizaciones);
+            this.panel1.Controls.Add(this.btnCerrarCaja);
             this.panel1.Controls.Add(this.lblUsuario);
             this.panel1.Controls.Add(this.lblNombreApellido);
             this.panel1.Controls.Add(this.lblRol);
@@ -73,30 +76,50 @@
             this.panel1.Size = new System.Drawing.Size(218, 614);
             this.panel1.TabIndex = 0;
             // 
+            // btnCerrarCaja
+            // 
+            this.btnCerrarCaja.FlatAppearance.BorderSize = 0;
+            this.btnCerrarCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarCaja.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarCaja.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCerrarCaja.Location = new System.Drawing.Point(0, 218);
+            this.btnCerrarCaja.Name = "btnCerrarCaja";
+            this.btnCerrarCaja.Size = new System.Drawing.Size(218, 54);
+            this.btnCerrarCaja.TabIndex = 8;
+            this.btnCerrarCaja.Text = "Cerrar Caja";
+            this.btnCerrarCaja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarCaja.UseVisualStyleBackColor = true;
+            // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(61, 4);
+            this.lblUsuario.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.Color.FloralWhite;
+            this.lblUsuario.Location = new System.Drawing.Point(70, 4);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(43, 13);
+            this.lblUsuario.Size = new System.Drawing.Size(51, 17);
             this.lblUsuario.TabIndex = 7;
             this.lblUsuario.Text = "Usuario";
             // 
             // lblNombreApellido
             // 
             this.lblNombreApellido.AutoSize = true;
-            this.lblNombreApellido.Location = new System.Drawing.Point(61, 42);
+            this.lblNombreApellido.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreApellido.ForeColor = System.Drawing.Color.FloralWhite;
+            this.lblNombreApellido.Location = new System.Drawing.Point(70, 42);
             this.lblNombreApellido.Name = "lblNombreApellido";
-            this.lblNombreApellido.Size = new System.Drawing.Size(87, 13);
+            this.lblNombreApellido.Size = new System.Drawing.Size(112, 17);
             this.lblNombreApellido.TabIndex = 6;
             this.lblNombreApellido.Text = "Nombre, Apellido";
             // 
             // lblRol
             // 
             this.lblRol.AutoSize = true;
-            this.lblRol.Location = new System.Drawing.Point(61, 23);
+            this.lblRol.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRol.ForeColor = System.Drawing.Color.FloralWhite;
+            this.lblRol.Location = new System.Drawing.Point(70, 23);
             this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(23, 13);
+            this.lblRol.Size = new System.Drawing.Size(26, 17);
             this.lblRol.TabIndex = 0;
             this.lblRol.Text = "Rol";
             // 
@@ -104,85 +127,59 @@
             // 
             this.btnCuadreTransacciones.FlatAppearance.BorderSize = 0;
             this.btnCuadreTransacciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCuadreTransacciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCuadreTransacciones.Location = new System.Drawing.Point(2, 409);
+            this.btnCuadreTransacciones.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCuadreTransacciones.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCuadreTransacciones.Location = new System.Drawing.Point(0, 392);
             this.btnCuadreTransacciones.Name = "btnCuadreTransacciones";
-            this.btnCuadreTransacciones.Size = new System.Drawing.Size(215, 35);
+            this.btnCuadreTransacciones.Size = new System.Drawing.Size(218, 54);
             this.btnCuadreTransacciones.TabIndex = 5;
             this.btnCuadreTransacciones.Text = "Cuadrar transacciones";
+            this.btnCuadreTransacciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCuadreTransacciones.UseVisualStyleBackColor = true;
             // 
             // btnReportes
             // 
             this.btnReportes.FlatAppearance.BorderSize = 0;
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportes.Location = new System.Drawing.Point(0, 350);
+            this.btnReportes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnReportes.Location = new System.Drawing.Point(0, 334);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(215, 35);
+            this.btnReportes.Size = new System.Drawing.Size(218, 54);
             this.btnReportes.TabIndex = 4;
             this.btnReportes.Text = "Reportes";
+            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReportes.UseVisualStyleBackColor = true;
-            // 
-            // btnFacturacion
-            // 
-            this.btnFacturacion.FlatAppearance.BorderSize = 0;
-            this.btnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacturacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacturacion.Location = new System.Drawing.Point(0, 291);
-            this.btnFacturacion.Name = "btnFacturacion";
-            this.btnFacturacion.Size = new System.Drawing.Size(215, 35);
-            this.btnFacturacion.TabIndex = 3;
-            this.btnFacturacion.Text = "Facturación";
-            this.btnFacturacion.UseVisualStyleBackColor = true;
-            this.btnFacturacion.Click += new System.EventHandler(this.btnFacturacion_Click);
             // 
             // btnAbrirCaja
             // 
             this.btnAbrirCaja.FlatAppearance.BorderSize = 0;
             this.btnAbrirCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirCaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrirCaja.Location = new System.Drawing.Point(0, 184);
+            this.btnAbrirCaja.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirCaja.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnAbrirCaja.Location = new System.Drawing.Point(0, 160);
             this.btnAbrirCaja.Name = "btnAbrirCaja";
-            this.btnAbrirCaja.Size = new System.Drawing.Size(215, 35);
+            this.btnAbrirCaja.Size = new System.Drawing.Size(218, 54);
             this.btnAbrirCaja.TabIndex = 2;
             this.btnAbrirCaja.Text = "Abrir Caja";
+            this.btnAbrirCaja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAbrirCaja.UseVisualStyleBackColor = true;
             this.btnAbrirCaja.Click += new System.EventHandler(this.btnAbrirCaja_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 55);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // btnCerrarSesion
             // 
             this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
+            this.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 577);
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 579);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(215, 35);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(218, 35);
             this.btnCerrarSesion.TabIndex = 0;
             this.btnCerrarSesion.Text = "Cerrar Sesión";
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.Maroon;
-            this.panel2.Location = new System.Drawing.Point(218, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(952, 27);
-            this.panel2.TabIndex = 5;
-            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
             // panelContenedor
             // 
@@ -193,73 +190,111 @@
             this.panelContenedor.Size = new System.Drawing.Size(952, 586);
             this.panelContenedor.TabIndex = 6;
             // 
-            // btnMinimizar
+            // panel2
             // 
-            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizar.BackColor = System.Drawing.Color.Maroon;
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Image = global::Caja.Properties.Resources.minus;
-            this.btnMinimizar.Location = new System.Drawing.Point(1108, 6);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(14, 14);
-            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimizar.TabIndex = 2;
-            this.btnMinimizar.TabStop = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.panel2.Controls.Add(this.btnRestaurar);
+            this.panel2.Controls.Add(this.btnMaximizar);
+            this.panel2.Controls.Add(this.btnMinimizar);
+            this.panel2.Controls.Add(this.btnCerrar);
+            this.panel2.Location = new System.Drawing.Point(218, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(952, 27);
+            this.panel2.TabIndex = 5;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
-            // btnCerrar
+            // btnCotizaciones
             // 
-            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrar.BackColor = System.Drawing.Color.Maroon;
-            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.Image = global::Caja.Properties.Resources.close;
-            this.btnCerrar.Location = new System.Drawing.Point(1148, 6);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(14, 14);
-            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnCerrar.TabIndex = 1;
-            this.btnCerrar.TabStop = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.btnCotizaciones.FlatAppearance.BorderSize = 0;
+            this.btnCotizaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCotizaciones.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCotizaciones.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCotizaciones.Location = new System.Drawing.Point(0, 450);
+            this.btnCotizaciones.Name = "btnCotizaciones";
+            this.btnCotizaciones.Size = new System.Drawing.Size(218, 54);
+            this.btnCotizaciones.TabIndex = 9;
+            this.btnCotizaciones.Text = "Crear cotizaciones";
+            this.btnCotizaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCotizaciones.UseVisualStyleBackColor = true;
+            // 
+            // btnFacturacion
+            // 
+            this.btnFacturacion.FlatAppearance.BorderSize = 0;
+            this.btnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFacturacion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacturacion.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnFacturacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFacturacion.Location = new System.Drawing.Point(0, 276);
+            this.btnFacturacion.Name = "btnFacturacion";
+            this.btnFacturacion.Size = new System.Drawing.Size(218, 54);
+            this.btnFacturacion.TabIndex = 3;
+            this.btnFacturacion.Text = "Facturación";
+            this.btnFacturacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFacturacion.UseVisualStyleBackColor = true;
+            this.btnFacturacion.Click += new System.EventHandler(this.btnFacturacion_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // btnRestaurar
             // 
-            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRestaurar.BackColor = System.Drawing.Color.Maroon;
+            this.btnRestaurar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRestaurar.Image = global::Caja.Properties.Resources.squares;
-            this.btnRestaurar.Location = new System.Drawing.Point(1128, 6);
+            this.btnRestaurar.Location = new System.Drawing.Point(909, 6);
             this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(14, 14);
+            this.btnRestaurar.Size = new System.Drawing.Size(16, 16);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnRestaurar.TabIndex = 3;
+            this.btnRestaurar.TabIndex = 12;
             this.btnRestaurar.TabStop = false;
-            this.btnRestaurar.Visible = false;
-            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
+            this.btnRestaurar.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // btnMaximizar
             // 
-            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Image = global::Caja.Properties.Resources.square;
-            this.btnMaximizar.Location = new System.Drawing.Point(1128, 6);
+            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
+            this.btnMaximizar.Location = new System.Drawing.Point(909, 6);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(14, 14);
+            this.btnMaximizar.Size = new System.Drawing.Size(16, 16);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 4;
+            this.btnMaximizar.TabIndex = 13;
             this.btnMaximizar.TabStop = false;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            this.btnMaximizar.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // button1
+            // btnMinimizar
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 234);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(215, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Abrir Caja";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(887, 6);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(16, 16);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimizar.TabIndex = 11;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+            this.btnCerrar.Location = new System.Drawing.Point(931, 6);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(16, 16);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar.TabIndex = 10;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // frm_Principal
             // 
@@ -267,11 +302,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 614);
             this.Controls.Add(this.panelContenedor);
-            this.Controls.Add(this.btnMinimizar);
-            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnRestaurar);
-            this.Controls.Add(this.btnMaximizar);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_Principal";
@@ -280,11 +311,12 @@
             this.Load += new System.EventHandler(this.frm_Principal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -294,11 +326,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnCerrarSesion;
-        private System.Windows.Forms.PictureBox btnCerrar;
-        private System.Windows.Forms.PictureBox btnMinimizar;
-        private System.Windows.Forms.PictureBox btnRestaurar;
-        private System.Windows.Forms.PictureBox btnMaximizar;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnCuadreTransacciones;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnFacturacion;
@@ -307,6 +334,12 @@
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblNombreApellido;
         private System.Windows.Forms.Label lblRol;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCerrarCaja;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox btnMinimizar;
+        private System.Windows.Forms.PictureBox btnCerrar;
+        private System.Windows.Forms.PictureBox btnMaximizar;
+        private System.Windows.Forms.PictureBox btnRestaurar;
+        private System.Windows.Forms.Button btnCotizaciones;
     }
 }

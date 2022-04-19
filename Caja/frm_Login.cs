@@ -34,19 +34,6 @@ namespace Caja
             log.Info("Login iniciado");
         }
 
-        // Boton cerrar ventana
-        private void btnCerrar_Click(object sender, EventArgs e)
-        {
-            log.Info("Cierre de la pantalla de Login");
-            Application.Exit();
-        }
-
-        // Minimizar ventana
-        private void btnMinimizar_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-        }
-
         // Boton ver contraseña
         private void btnVerPassword_Click(object sender, EventArgs e)
         {
@@ -185,5 +172,17 @@ namespace Caja
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        // Boton cerrar ventana
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            log.Info("Cierre de la pantalla de Login");
+            Application.Exit();
+        }
+
+        // Minimizar ventana
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }

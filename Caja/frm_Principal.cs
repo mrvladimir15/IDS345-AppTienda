@@ -29,38 +29,6 @@ namespace Caja
             InitializeComponent();
         }
 
-        // Boton cerrar ventana
-        private void btnCerrar_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("¿Está seguro de que desea cerrar la aplicación?", "Confirmar acción", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                log.Info("Aplicación cerrada");
-                Application.Exit();
-            }
-        }
-
-        // Boton minimizar ventana
-        private void btnMinimizar_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-        }
-
-        // Boton maximizar
-        private void btnMaximizar_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Maximized;
-            btnMaximizar.Visible = false;
-            btnRestaurar.Visible = true;
-        }
-
-        // Boton restaurar
-        private void btnRestaurar_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Normal;
-            btnMaximizar.Visible = true;
-            btnRestaurar.Visible = false;
-        }
-
         // Funcion para mover el formulario
         private void panel2_MouseDown(object sender, MouseEventArgs e)
         {
@@ -141,6 +109,38 @@ namespace Caja
                 AbrirFormHijo(new frm_Facturacion());
             //else
             //    MessageBox.Show("La caja está cerrada; para facturar, debe abrirla primero.", "Caja cerrada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        // Cerrar ventana
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Está seguro de que desea cerrar la aplicación?", "Confirmar acción", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                log.Info("Aplicación cerrada");
+                Application.Exit();
+            }
+        }
+
+        // Minimzar ventana
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        // Boton maximizar
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible = false;
+            btnRestaurar.Visible = true;
+        }
+
+        // Boton restaurar
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Normal;
+            btnMaximizar.Visible = true;
+            btnRestaurar.Visible = false;
         }
     }
 }
