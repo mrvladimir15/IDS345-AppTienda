@@ -17,6 +17,10 @@ namespace Caja
 
 namespace Caja.DS_LoginTableAdapters
 {
+    partial class AperturaCierreCaja1TableAdapter
+    {
+    }
+
     partial class FacturaDetalleTableAdapter
     {
     }

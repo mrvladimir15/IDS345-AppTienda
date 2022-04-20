@@ -16,7 +16,7 @@ namespace Caja
         // Objeto log4net
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        AperturaCierreCaja1TableAdapter adapterApertura = new AperturaCierreCaja1TableAdapter();
+        AperturaCierreCajaTableAdapter adapterApertura = new AperturaCierreCajaTableAdapter();
         FacturasTableAdapter adapterFacturas = new FacturasTableAdapter();
 
         private double totalApertura = 0;

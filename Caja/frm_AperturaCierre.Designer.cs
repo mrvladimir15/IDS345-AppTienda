@@ -77,20 +77,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 20);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(39, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 37);
+            this.label1.Size = new System.Drawing.Size(246, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Aperturar Caja";
             // 
             // txt1Peso
             // 
-            this.txt1Peso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1Peso.Location = new System.Drawing.Point(210, 180);
+            this.txt1Peso.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1Peso.Location = new System.Drawing.Point(230, 182);
             this.txt1Peso.MaxLength = 5;
             this.txt1Peso.Name = "txt1Peso";
-            this.txt1Peso.Size = new System.Drawing.Size(49, 24);
+            this.txt1Peso.Size = new System.Drawing.Size(49, 26);
             this.txt1Peso.TabIndex = 1;
             this.txt1Peso.Text = "0";
             this.txt1Peso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -100,11 +100,11 @@
             // 
             // txt5Pesos
             // 
-            this.txt5Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt5Pesos.Location = new System.Drawing.Point(210, 246);
+            this.txt5Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt5Pesos.Location = new System.Drawing.Point(230, 248);
             this.txt5Pesos.MaxLength = 5;
             this.txt5Pesos.Name = "txt5Pesos";
-            this.txt5Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt5Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt5Pesos.TabIndex = 2;
             this.txt5Pesos.Text = "0";
             this.txt5Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -114,12 +114,12 @@
             // 
             // txt25Pesos
             // 
-            this.txt25Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt25Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt25Pesos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txt25Pesos.Location = new System.Drawing.Point(210, 370);
+            this.txt25Pesos.Location = new System.Drawing.Point(230, 372);
             this.txt25Pesos.MaxLength = 5;
             this.txt25Pesos.Name = "txt25Pesos";
-            this.txt25Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt25Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt25Pesos.TabIndex = 4;
             this.txt25Pesos.Text = "0";
             this.txt25Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -129,11 +129,11 @@
             // 
             // txt10Pesos
             // 
-            this.txt10Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt10Pesos.Location = new System.Drawing.Point(210, 308);
+            this.txt10Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt10Pesos.Location = new System.Drawing.Point(230, 310);
             this.txt10Pesos.MaxLength = 5;
             this.txt10Pesos.Name = "txt10Pesos";
-            this.txt10Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt10Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt10Pesos.TabIndex = 3;
             this.txt10Pesos.Text = "0";
             this.txt10Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -143,11 +143,11 @@
             // 
             // txt500Pesos
             // 
-            this.txt500Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt500Pesos.Location = new System.Drawing.Point(477, 312);
+            this.txt500Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt500Pesos.Location = new System.Drawing.Point(497, 314);
             this.txt500Pesos.MaxLength = 5;
             this.txt500Pesos.Name = "txt500Pesos";
-            this.txt500Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt500Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt500Pesos.TabIndex = 8;
             this.txt500Pesos.Text = "0";
             this.txt500Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -157,11 +157,11 @@
             // 
             // txt200Pesos
             // 
-            this.txt200Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt200Pesos.Location = new System.Drawing.Point(477, 246);
+            this.txt200Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt200Pesos.Location = new System.Drawing.Point(497, 248);
             this.txt200Pesos.MaxLength = 5;
             this.txt200Pesos.Name = "txt200Pesos";
-            this.txt200Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt200Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt200Pesos.TabIndex = 7;
             this.txt200Pesos.Text = "0";
             this.txt200Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -171,11 +171,11 @@
             // 
             // txt100Pesos
             // 
-            this.txt100Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt100Pesos.Location = new System.Drawing.Point(477, 180);
+            this.txt100Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt100Pesos.Location = new System.Drawing.Point(497, 182);
             this.txt100Pesos.MaxLength = 5;
             this.txt100Pesos.Name = "txt100Pesos";
-            this.txt100Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt100Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt100Pesos.TabIndex = 6;
             this.txt100Pesos.Text = "0";
             this.txt100Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -185,11 +185,11 @@
             // 
             // txt50Pesos
             // 
-            this.txt50Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt50Pesos.Location = new System.Drawing.Point(477, 114);
+            this.txt50Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt50Pesos.Location = new System.Drawing.Point(497, 116);
             this.txt50Pesos.MaxLength = 5;
             this.txt50Pesos.Name = "txt50Pesos";
-            this.txt50Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt50Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt50Pesos.TabIndex = 5;
             this.txt50Pesos.Text = "0";
             this.txt50Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -199,11 +199,11 @@
             // 
             // txt2000Pesos
             // 
-            this.txt2000Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt2000Pesos.Location = new System.Drawing.Point(477, 444);
+            this.txt2000Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt2000Pesos.Location = new System.Drawing.Point(497, 446);
             this.txt2000Pesos.MaxLength = 5;
             this.txt2000Pesos.Name = "txt2000Pesos";
-            this.txt2000Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt2000Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt2000Pesos.TabIndex = 10;
             this.txt2000Pesos.Text = "0";
             this.txt2000Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -213,11 +213,11 @@
             // 
             // txt1000Pesos
             // 
-            this.txt1000Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1000Pesos.Location = new System.Drawing.Point(477, 378);
+            this.txt1000Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1000Pesos.Location = new System.Drawing.Point(497, 380);
             this.txt1000Pesos.MaxLength = 5;
             this.txt1000Pesos.Name = "txt1000Pesos";
-            this.txt1000Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt1000Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt1000Pesos.TabIndex = 9;
             this.txt1000Pesos.Text = "0";
             this.txt1000Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -228,7 +228,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Caja.Properties.Resources._1peso;
-            this.pictureBox1.Location = new System.Drawing.Point(63, 168);
+            this.pictureBox1.Location = new System.Drawing.Point(83, 170);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -238,7 +238,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Caja.Properties.Resources._5pesos;
-            this.pictureBox2.Location = new System.Drawing.Point(63, 234);
+            this.pictureBox2.Location = new System.Drawing.Point(83, 236);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 48);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -248,7 +248,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Caja.Properties.Resources._25pesos;
-            this.pictureBox9.Location = new System.Drawing.Point(63, 358);
+            this.pictureBox9.Location = new System.Drawing.Point(83, 360);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(100, 48);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -258,7 +258,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Caja.Properties.Resources._10pesos;
-            this.pictureBox10.Location = new System.Drawing.Point(63, 296);
+            this.pictureBox10.Location = new System.Drawing.Point(83, 298);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(100, 48);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -268,7 +268,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Caja.Properties.Resources._500pesos;
-            this.pictureBox3.Location = new System.Drawing.Point(335, 300);
+            this.pictureBox3.Location = new System.Drawing.Point(355, 302);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 48);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -278,7 +278,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Caja.Properties.Resources._200pesos;
-            this.pictureBox4.Location = new System.Drawing.Point(335, 234);
+            this.pictureBox4.Location = new System.Drawing.Point(355, 236);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 48);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -288,7 +288,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Caja.Properties.Resources._100pesos;
-            this.pictureBox5.Location = new System.Drawing.Point(335, 168);
+            this.pictureBox5.Location = new System.Drawing.Point(355, 170);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 48);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -298,7 +298,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Caja.Properties.Resources._50pesos;
-            this.pictureBox6.Location = new System.Drawing.Point(335, 102);
+            this.pictureBox6.Location = new System.Drawing.Point(355, 104);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 48);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -308,7 +308,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Caja.Properties.Resources._2000pesos;
-            this.pictureBox11.Location = new System.Drawing.Point(335, 432);
+            this.pictureBox11.Location = new System.Drawing.Point(355, 434);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(100, 48);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -318,7 +318,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Caja.Properties.Resources._1000pesos;
-            this.pictureBox12.Location = new System.Drawing.Point(335, 366);
+            this.pictureBox12.Location = new System.Drawing.Point(355, 368);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(100, 48);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -329,7 +329,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(176, 180);
+            this.label2.Location = new System.Drawing.Point(196, 182);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(24, 25);
             this.label2.TabIndex = 25;
@@ -339,7 +339,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(176, 246);
+            this.label3.Location = new System.Drawing.Point(196, 248);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 25);
             this.label3.TabIndex = 26;
@@ -349,7 +349,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(176, 308);
+            this.label4.Location = new System.Drawing.Point(196, 310);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(24, 25);
             this.label4.TabIndex = 27;
@@ -359,7 +359,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(176, 370);
+            this.label5.Location = new System.Drawing.Point(196, 372);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 25);
             this.label5.TabIndex = 28;
@@ -369,7 +369,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(444, 312);
+            this.label6.Location = new System.Drawing.Point(464, 314);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 25);
             this.label6.TabIndex = 32;
@@ -379,7 +379,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(444, 246);
+            this.label7.Location = new System.Drawing.Point(464, 248);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(24, 25);
             this.label7.TabIndex = 31;
@@ -389,7 +389,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(444, 180);
+            this.label8.Location = new System.Drawing.Point(464, 182);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(24, 25);
             this.label8.TabIndex = 30;
@@ -399,7 +399,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(444, 114);
+            this.label9.Location = new System.Drawing.Point(464, 116);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(24, 25);
             this.label9.TabIndex = 29;
@@ -409,7 +409,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(444, 444);
+            this.label10.Location = new System.Drawing.Point(464, 446);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(24, 25);
             this.label10.TabIndex = 34;
@@ -419,7 +419,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(444, 378);
+            this.label11.Location = new System.Drawing.Point(464, 380);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(24, 25);
             this.label11.TabIndex = 33;
@@ -427,12 +427,14 @@
             // 
             // btnAbrirCaja
             // 
-            this.btnAbrirCaja.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btnAbrirCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
             this.btnAbrirCaja.FlatAppearance.BorderSize = 0;
             this.btnAbrirCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirCaja.Location = new System.Drawing.Point(740, 365);
+            this.btnAbrirCaja.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbrirCaja.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnAbrirCaja.Location = new System.Drawing.Point(729, 335);
             this.btnAbrirCaja.Name = "btnAbrirCaja";
-            this.btnAbrirCaja.Size = new System.Drawing.Size(122, 34);
+            this.btnAbrirCaja.Size = new System.Drawing.Size(149, 38);
             this.btnAbrirCaja.TabIndex = 35;
             this.btnAbrirCaja.Text = "Abrir Caja";
             this.btnAbrirCaja.UseVisualStyleBackColor = false;
@@ -441,10 +443,10 @@
             // txtTotalApertura
             // 
             this.txtTotalApertura.Enabled = false;
-            this.txtTotalApertura.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotalApertura.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalApertura.Location = new System.Drawing.Point(718, 286);
             this.txtTotalApertura.Name = "txtTotalApertura";
-            this.txtTotalApertura.Size = new System.Drawing.Size(171, 24);
+            this.txtTotalApertura.Size = new System.Drawing.Size(171, 26);
             this.txtTotalApertura.TabIndex = 36;
             this.txtTotalApertura.Text = "0";
             this.txtTotalApertura.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -452,10 +454,10 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(692, 258);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(222, 20);
+            this.label12.Size = new System.Drawing.Size(235, 19);
             this.label12.TabIndex = 37;
             this.label12.Text = "Monto total de apertura (RD$)";
             // 

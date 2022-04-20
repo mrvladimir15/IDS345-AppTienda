@@ -42,7 +42,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.btnFinalizarFactura = new System.Windows.Forms.Button();
-            this.txtCodigoServicio = new System.Windows.Forms.TextBox();
             this.btnAgregarProducto = new System.Windows.Forms.Button();
             this.txtCantidadProducto = new System.Windows.Forms.TextBox();
             this.txtCodigoProducto = new System.Windows.Forms.TextBox();
@@ -71,10 +70,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 37);
+            this.label1.Size = new System.Drawing.Size(183, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Facturación";
             // 
@@ -91,13 +90,13 @@
             // 
             // btnNuevaFactura
             // 
-            this.btnNuevaFactura.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnNuevaFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(173)))), ((int)(((byte)(125)))));
             this.btnNuevaFactura.FlatAppearance.BorderSize = 0;
             this.btnNuevaFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevaFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevaFactura.Location = new System.Drawing.Point(806, 14);
+            this.btnNuevaFactura.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevaFactura.Location = new System.Drawing.Point(791, 16);
             this.btnNuevaFactura.Name = "btnNuevaFactura";
-            this.btnNuevaFactura.Size = new System.Drawing.Size(103, 33);
+            this.btnNuevaFactura.Size = new System.Drawing.Size(118, 33);
             this.btnNuevaFactura.TabIndex = 4;
             this.btnNuevaFactura.Text = "Nueva factura";
             this.btnNuevaFactura.UseVisualStyleBackColor = false;
@@ -107,52 +106,53 @@
             // 
             this.cmbTipoFactura.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbTipoFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTipoFactura.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTipoFactura.FormattingEnabled = true;
             this.cmbTipoFactura.Items.AddRange(new object[] {
             "Consumidor final",
             "Crédito Fiscal"});
-            this.cmbTipoFactura.Location = new System.Drawing.Point(364, 17);
+            this.cmbTipoFactura.Location = new System.Drawing.Point(366, 20);
             this.cmbTipoFactura.Name = "cmbTipoFactura";
-            this.cmbTipoFactura.Size = new System.Drawing.Size(121, 26);
+            this.cmbTipoFactura.Size = new System.Drawing.Size(121, 25);
             this.cmbTipoFactura.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(270, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.Size = new System.Drawing.Size(95, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tipo de factura";
             // 
             // txtIDCliente
             // 
-            this.txtIDCliente.Location = new System.Drawing.Point(96, 20);
+            this.txtIDCliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDCliente.Location = new System.Drawing.Point(99, 21);
             this.txtIDCliente.MaxLength = 70;
             this.txtIDCliente.Name = "txtIDCliente";
-            this.txtIDCliente.Size = new System.Drawing.Size(121, 20);
+            this.txtIDCliente.Size = new System.Drawing.Size(121, 22);
             this.txtIDCliente.TabIndex = 1;
             this.txtIDCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIDCliente_KeyPress);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(14, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.Size = new System.Drawing.Size(81, 16);
             this.label3.TabIndex = 6;
             this.label3.Text = "ID de cliente";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(525, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 13);
+            this.label4.Size = new System.Drawing.Size(107, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "Método de pago";
             // 
@@ -160,53 +160,56 @@
             // 
             this.cmbMetodoPago.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMetodoPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbMetodoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMetodoPago.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMetodoPago.FormattingEnabled = true;
             this.cmbMetodoPago.Items.AddRange(new object[] {
             "Efectivo",
             "Tarjeta",
             "Diferido"});
-            this.cmbMetodoPago.Location = new System.Drawing.Point(619, 17);
+            this.cmbMetodoPago.Location = new System.Drawing.Point(636, 20);
             this.cmbMetodoPago.Name = "cmbMetodoPago";
-            this.cmbMetodoPago.Size = new System.Drawing.Size(121, 26);
+            this.cmbMetodoPago.Size = new System.Drawing.Size(121, 25);
             this.cmbMetodoPago.TabIndex = 3;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(663, 83);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 18);
+            this.label8.Size = new System.Drawing.Size(109, 18);
             this.label8.TabIndex = 16;
             this.label8.Text = "Total a pagar:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(663, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 18);
+            this.label9.Size = new System.Drawing.Size(43, 18);
             this.label9.TabIndex = 15;
             this.label9.Text = "ITBIS:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(660, 16);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 18);
+            this.label10.Size = new System.Drawing.Size(71, 18);
             this.label10.TabIndex = 14;
             this.label10.Text = "Subtotal:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // btnFinalizarFactura
             // 
-            this.btnFinalizarFactura.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnFinalizarFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
             this.btnFinalizarFactura.FlatAppearance.BorderSize = 0;
             this.btnFinalizarFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizarFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizarFactura.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizarFactura.ForeColor = System.Drawing.Color.FloralWhite;
             this.btnFinalizarFactura.Location = new System.Drawing.Point(702, 118);
             this.btnFinalizarFactura.Name = "btnFinalizarFactura";
             this.btnFinalizarFactura.Size = new System.Drawing.Size(174, 31);
@@ -215,21 +218,12 @@
             this.btnFinalizarFactura.UseVisualStyleBackColor = false;
             this.btnFinalizarFactura.Click += new System.EventHandler(this.btnFinalizarFactura_Click);
             // 
-            // txtCodigoServicio
-            // 
-            this.txtCodigoServicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigoServicio.Location = new System.Drawing.Point(165, 49);
-            this.txtCodigoServicio.MaxLength = 10;
-            this.txtCodigoServicio.Name = "txtCodigoServicio";
-            this.txtCodigoServicio.Size = new System.Drawing.Size(126, 24);
-            this.txtCodigoServicio.TabIndex = 7;
-            // 
             // btnAgregarProducto
             // 
-            this.btnAgregarProducto.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnAgregarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(173)))), ((int)(((byte)(125)))));
             this.btnAgregarProducto.FlatAppearance.BorderSize = 0;
             this.btnAgregarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarProducto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarProducto.Location = new System.Drawing.Point(117, 124);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(174, 31);
@@ -240,11 +234,11 @@
             // 
             // txtCantidadProducto
             // 
-            this.txtCantidadProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidadProducto.Location = new System.Drawing.Point(165, 84);
+            this.txtCantidadProducto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCantidadProducto.Location = new System.Drawing.Point(191, 81);
             this.txtCantidadProducto.MaxLength = 10;
             this.txtCantidadProducto.Name = "txtCantidadProducto";
-            this.txtCantidadProducto.Size = new System.Drawing.Size(126, 24);
+            this.txtCantidadProducto.Size = new System.Drawing.Size(126, 26);
             this.txtCantidadProducto.TabIndex = 6;
             this.txtCantidadProducto.Text = "0";
             this.txtCantidadProducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -254,11 +248,11 @@
             // 
             // txtCodigoProducto
             // 
-            this.txtCodigoProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigoProducto.Location = new System.Drawing.Point(165, 19);
+            this.txtCodigoProducto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigoProducto.Location = new System.Drawing.Point(191, 39);
             this.txtCodigoProducto.MaxLength = 10;
             this.txtCodigoProducto.Name = "txtCodigoProducto";
-            this.txtCodigoProducto.Size = new System.Drawing.Size(126, 24);
+            this.txtCodigoProducto.Size = new System.Drawing.Size(126, 26);
             this.txtCodigoProducto.TabIndex = 5;
             this.txtCodigoProducto.Text = "0";
             this.txtCodigoProducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -269,30 +263,32 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 87);
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 84);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(153, 18);
+            this.label6.Size = new System.Drawing.Size(177, 18);
             this.label6.TabIndex = 3;
             this.label6.Text = "Cantidad de producto:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 22);
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 42);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 18);
+            this.label5.Size = new System.Drawing.Size(164, 18);
             this.label5.TabIndex = 2;
             this.label5.Text = "Código de producto:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // lblTotalPagar
             // 
             this.lblTotalPagar.AutoSize = true;
-            this.lblTotalPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPagar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPagar.Location = new System.Drawing.Point(873, 84);
             this.lblTotalPagar.Name = "lblTotalPagar";
-            this.lblTotalPagar.Size = new System.Drawing.Size(0, 18);
+            this.lblTotalPagar.Size = new System.Drawing.Size(0, 20);
             this.lblTotalPagar.TabIndex = 12;
             // 
             // label7
@@ -308,20 +304,20 @@
             // lblITBIS
             // 
             this.lblITBIS.AutoSize = true;
-            this.lblITBIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblITBIS.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblITBIS.Location = new System.Drawing.Point(879, 50);
             this.lblITBIS.Name = "lblITBIS";
-            this.lblITBIS.Size = new System.Drawing.Size(0, 18);
+            this.lblITBIS.Size = new System.Drawing.Size(0, 20);
             this.lblITBIS.TabIndex = 14;
             this.lblITBIS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubtotal.Location = new System.Drawing.Point(873, 16);
             this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(0, 18);
+            this.lblSubtotal.Size = new System.Drawing.Size(0, 20);
             this.lblSubtotal.TabIndex = 13;
             this.lblSubtotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -358,10 +354,9 @@
             this.panelDetalleFactura.Controls.Add(this.txtCantidadProducto);
             this.panelDetalleFactura.Controls.Add(this.btnFinalizarFactura);
             this.panelDetalleFactura.Controls.Add(this.btnAgregarProducto);
-            this.panelDetalleFactura.Controls.Add(this.txtCodigoServicio);
             this.panelDetalleFactura.Enabled = false;
             this.panelDetalleFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panelDetalleFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelDetalleFactura.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelDetalleFactura.Location = new System.Drawing.Point(12, 128);
             this.panelDetalleFactura.Name = "panelDetalleFactura";
             this.panelDetalleFactura.Size = new System.Drawing.Size(921, 443);
@@ -375,7 +370,7 @@
             this.lblAlertaCodigoProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblAlertaCodigoProducto.Location = new System.Drawing.Point(298, 29);
             this.lblAlertaCodigoProducto.Name = "lblAlertaCodigoProducto";
-            this.lblAlertaCodigoProducto.Size = new System.Drawing.Size(0, 13);
+            this.lblAlertaCodigoProducto.Size = new System.Drawing.Size(0, 15);
             this.lblAlertaCodigoProducto.TabIndex = 18;
             // 
             // facturaDetalleBindingSource
@@ -447,7 +442,6 @@
         private System.Windows.Forms.TextBox txtCantidadProducto;
         private System.Windows.Forms.TextBox txtCodigoProducto;
         private System.Windows.Forms.Button btnAgregarProducto;
-        private System.Windows.Forms.TextBox txtCodigoServicio;
         private System.Windows.Forms.Button btnFinalizarFactura;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label lblITBIS;

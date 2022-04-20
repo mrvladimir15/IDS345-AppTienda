@@ -21,7 +21,7 @@ namespace Caja
 
         //Adapters
         FacturasTableAdapter adapterFacturas = new FacturasTableAdapter();
-        AperturaCierreCaja1TableAdapter adapterAperturaCierre = new AperturaCierreCaja1TableAdapter();
+        AperturaCierreCajaTableAdapter adapterAperturaCierre = new AperturaCierreCajaTableAdapter();
         MovimientosCajaTableAdapter adapterMovimientosCaja = new MovimientosCajaTableAdapter();
 
         public frm_PagoEfectivo()

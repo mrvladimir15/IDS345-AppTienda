@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_PagoEfectivo));
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -328,11 +329,11 @@
             // 
             // txt2000Pesos
             // 
-            this.txt2000Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt2000Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt2000Pesos.Location = new System.Drawing.Point(454, 441);
             this.txt2000Pesos.MaxLength = 5;
             this.txt2000Pesos.Name = "txt2000Pesos";
-            this.txt2000Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt2000Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt2000Pesos.TabIndex = 44;
             this.txt2000Pesos.Text = "0";
             this.txt2000Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -342,11 +343,11 @@
             // 
             // txt1000Pesos
             // 
-            this.txt1000Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1000Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt1000Pesos.Location = new System.Drawing.Point(454, 375);
             this.txt1000Pesos.MaxLength = 5;
             this.txt1000Pesos.Name = "txt1000Pesos";
-            this.txt1000Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt1000Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt1000Pesos.TabIndex = 43;
             this.txt1000Pesos.Text = "0";
             this.txt1000Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -356,11 +357,11 @@
             // 
             // txt500Pesos
             // 
-            this.txt500Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt500Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt500Pesos.Location = new System.Drawing.Point(454, 309);
             this.txt500Pesos.MaxLength = 5;
             this.txt500Pesos.Name = "txt500Pesos";
-            this.txt500Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt500Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt500Pesos.TabIndex = 42;
             this.txt500Pesos.Text = "0";
             this.txt500Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -370,11 +371,11 @@
             // 
             // txt200Pesos
             // 
-            this.txt200Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt200Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt200Pesos.Location = new System.Drawing.Point(454, 243);
             this.txt200Pesos.MaxLength = 5;
             this.txt200Pesos.Name = "txt200Pesos";
-            this.txt200Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt200Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt200Pesos.TabIndex = 41;
             this.txt200Pesos.Text = "0";
             this.txt200Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -384,11 +385,11 @@
             // 
             // txt100Pesos
             // 
-            this.txt100Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt100Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt100Pesos.Location = new System.Drawing.Point(453, 174);
             this.txt100Pesos.MaxLength = 5;
             this.txt100Pesos.Name = "txt100Pesos";
-            this.txt100Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt100Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt100Pesos.TabIndex = 40;
             this.txt100Pesos.Text = "0";
             this.txt100Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -398,11 +399,11 @@
             // 
             // txt50Pesos
             // 
-            this.txt50Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt50Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt50Pesos.Location = new System.Drawing.Point(453, 108);
             this.txt50Pesos.MaxLength = 5;
             this.txt50Pesos.Name = "txt50Pesos";
-            this.txt50Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt50Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt50Pesos.TabIndex = 39;
             this.txt50Pesos.Text = "0";
             this.txt50Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -412,12 +413,12 @@
             // 
             // txt25Pesos
             // 
-            this.txt25Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt25Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt25Pesos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.txt25Pesos.Location = new System.Drawing.Point(202, 367);
             this.txt25Pesos.MaxLength = 5;
             this.txt25Pesos.Name = "txt25Pesos";
-            this.txt25Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt25Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt25Pesos.TabIndex = 38;
             this.txt25Pesos.Text = "0";
             this.txt25Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -427,11 +428,11 @@
             // 
             // txt10Pesos
             // 
-            this.txt10Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt10Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt10Pesos.Location = new System.Drawing.Point(202, 305);
             this.txt10Pesos.MaxLength = 5;
             this.txt10Pesos.Name = "txt10Pesos";
-            this.txt10Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt10Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt10Pesos.TabIndex = 37;
             this.txt10Pesos.Text = "0";
             this.txt10Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -441,11 +442,11 @@
             // 
             // txt5Pesos
             // 
-            this.txt5Pesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt5Pesos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt5Pesos.Location = new System.Drawing.Point(202, 243);
             this.txt5Pesos.MaxLength = 5;
             this.txt5Pesos.Name = "txt5Pesos";
-            this.txt5Pesos.Size = new System.Drawing.Size(49, 24);
+            this.txt5Pesos.Size = new System.Drawing.Size(49, 26);
             this.txt5Pesos.TabIndex = 36;
             this.txt5Pesos.Text = "0";
             this.txt5Pesos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -455,11 +456,11 @@
             // 
             // txt1Peso
             // 
-            this.txt1Peso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt1Peso.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt1Peso.Location = new System.Drawing.Point(201, 174);
             this.txt1Peso.MaxLength = 5;
             this.txt1Peso.Name = "txt1Peso";
-            this.txt1Peso.Size = new System.Drawing.Size(49, 24);
+            this.txt1Peso.Size = new System.Drawing.Size(49, 26);
             this.txt1Peso.TabIndex = 35;
             this.txt1Peso.Text = "0";
             this.txt1Peso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -585,9 +586,11 @@
             // 
             // btnPagar
             // 
-            this.btnPagar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
             this.btnPagar.FlatAppearance.BorderSize = 0;
             this.btnPagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagar.ForeColor = System.Drawing.Color.FloralWhite;
             this.btnPagar.Location = new System.Drawing.Point(59, 164);
             this.btnPagar.Name = "btnPagar";
             this.btnPagar.Size = new System.Drawing.Size(149, 29);
@@ -972,7 +975,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(812, 519);
-            this.Controls.Add(this.gbDevuelta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label10);
@@ -1006,7 +1008,9 @@
             this.Controls.Add(this.txt5Pesos);
             this.Controls.Add(this.txt1Peso);
             this.Controls.Add(this.gbInsertarEfectivo);
+            this.Controls.Add(this.gbDevuelta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_PagoEfectivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Facturar: efectivo";

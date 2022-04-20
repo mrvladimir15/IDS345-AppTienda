@@ -126,7 +126,7 @@
             this.btnVerPassword.BackColor = System.Drawing.Color.White;
             this.btnVerPassword.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVerPassword.Image = global::Caja.Properties.Resources.visibility;
-            this.btnVerPassword.Location = new System.Drawing.Point(293, 303);
+            this.btnVerPassword.Location = new System.Drawing.Point(291, 303);
             this.btnVerPassword.Name = "btnVerPassword";
             this.btnVerPassword.Size = new System.Drawing.Size(18, 18);
             this.btnVerPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -197,7 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.ClientSize = new System.Drawing.Size(357, 486);
+            this.ClientSize = new System.Drawing.Size(357, 459);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnVerPassword);
@@ -211,7 +211,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Login";
-            this.Opacity = 0.9D;
+            this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Caja: Iniciar Sesión";
             this.Load += new System.EventHandler(this.frm_Login_Load);

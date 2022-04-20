@@ -157,10 +157,10 @@ namespace Caja
         {
             try
             {
-                if (txtCantidadProducto.Text.Trim() != "" && txtCodigoProducto.Text.Trim() != "" && txtCodigoServicio.Text.Trim() != "" && txtCantidadProducto.Text.Trim() != "0" && txtCodigoProducto.Text.Trim() != "0" && txtCodigoServicio.Text.Trim() != "0")
+                if (txtCantidadProducto.Text.Trim() != "" && txtCodigoProducto.Text.Trim() != "" && txtCantidadProducto.Text.Trim() != "0" && txtCodigoProducto.Text.Trim() != "0")
                 {
                     // Inserción del producto en la tabla detalle factura
-                    adapterDetalleFactura.proc_DetalleFactura(IdFactura, int.Parse(txtCodigoProducto.Text.Trim()), int.Parse(txtCodigoServicio.Text.Trim()), int.Parse(txtCantidadProducto.Text.Trim()));
+                    adapterDetalleFactura.proc_DetalleFactura(IdFactura, int.Parse(txtCodigoProducto.Text.Trim()), int.Parse(txtCantidadProducto.Text.Trim()));
                     log.Info("Detalle de factura creado");
 
                     // Insertado el producto, se reestablecen los valores por defecto de los campos
@@ -251,6 +251,26 @@ namespace Caja
                 else
                     lblAlertaCodigoProducto.Text = "";
             }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
 
         // Evento enter txtCantidad

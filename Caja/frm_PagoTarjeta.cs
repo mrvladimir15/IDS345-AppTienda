@@ -17,7 +17,7 @@ namespace Caja
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         FacturasTableAdapter adapterFacturas = new FacturasTableAdapter();
-        AperturaCierreCaja1TableAdapter adapterAperturaCierre = new AperturaCierreCaja1TableAdapter();
+        AperturaCierreCajaTableAdapter adapterAperturaCierre = new AperturaCierreCajaTableAdapter();
         MovimientosCajaTableAdapter adapterMovimientosCaja = new MovimientosCajaTableAdapter();
 
         frm_Facturacion facturacion = new frm_Facturacion();
