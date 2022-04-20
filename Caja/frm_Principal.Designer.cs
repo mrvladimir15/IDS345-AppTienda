@@ -30,26 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Principal));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCotizaciones = new System.Windows.Forms.Button();
-            this.btnCerrarCaja = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblNombreApellido = new System.Windows.Forms.Label();
             this.lblRol = new System.Windows.Forms.Label();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCotizaciones = new System.Windows.Forms.Button();
+            this.btnCerrarCaja = new System.Windows.Forms.Button();
             this.btnCuadreTransacciones = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.btnAbrirCaja = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.panelContenedor = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -75,38 +75,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(218, 614);
             this.panel1.TabIndex = 0;
-            // 
-            // btnCotizaciones
-            // 
-            this.btnCotizaciones.FlatAppearance.BorderSize = 0;
-            this.btnCotizaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCotizaciones.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCotizaciones.ForeColor = System.Drawing.Color.FloralWhite;
-            this.btnCotizaciones.Image = global::Caja.Properties.Resources.cotizacion__1_;
-            this.btnCotizaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCotizaciones.Location = new System.Drawing.Point(0, 450);
-            this.btnCotizaciones.Name = "btnCotizaciones";
-            this.btnCotizaciones.Size = new System.Drawing.Size(218, 54);
-            this.btnCotizaciones.TabIndex = 9;
-            this.btnCotizaciones.Text = "Crear cotizaciones";
-            this.btnCotizaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCotizaciones.UseVisualStyleBackColor = true;
-            // 
-            // btnCerrarCaja
-            // 
-            this.btnCerrarCaja.FlatAppearance.BorderSize = 0;
-            this.btnCerrarCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarCaja.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarCaja.ForeColor = System.Drawing.Color.FloralWhite;
-            this.btnCerrarCaja.Image = global::Caja.Properties.Resources.candado;
-            this.btnCerrarCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarCaja.Location = new System.Drawing.Point(0, 218);
-            this.btnCerrarCaja.Name = "btnCerrarCaja";
-            this.btnCerrarCaja.Size = new System.Drawing.Size(218, 54);
-            this.btnCerrarCaja.TabIndex = 8;
-            this.btnCerrarCaja.Text = "Cerrar Caja";
-            this.btnCerrarCaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCerrarCaja.UseVisualStyleBackColor = true;
             // 
             // lblUsuario
             // 
@@ -140,6 +108,63 @@
             this.lblRol.Size = new System.Drawing.Size(26, 17);
             this.lblRol.TabIndex = 0;
             this.lblRol.Text = "Rol";
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelContenedor.Location = new System.Drawing.Point(218, 28);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(952, 586);
+            this.panelContenedor.TabIndex = 6;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.panel2.Controls.Add(this.btnMaximizar);
+            this.panel2.Controls.Add(this.btnMinimizar);
+            this.panel2.Controls.Add(this.btnCerrar);
+            this.panel2.Controls.Add(this.btnRestaurar);
+            this.panel2.Location = new System.Drawing.Point(218, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(952, 27);
+            this.panel2.TabIndex = 5;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            // 
+            // btnCotizaciones
+            // 
+            this.btnCotizaciones.FlatAppearance.BorderSize = 0;
+            this.btnCotizaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCotizaciones.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCotizaciones.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCotizaciones.Image = global::Caja.Properties.Resources.cotizacion__1_;
+            this.btnCotizaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCotizaciones.Location = new System.Drawing.Point(0, 450);
+            this.btnCotizaciones.Name = "btnCotizaciones";
+            this.btnCotizaciones.Size = new System.Drawing.Size(218, 54);
+            this.btnCotizaciones.TabIndex = 9;
+            this.btnCotizaciones.Text = "Crear cotizaciones";
+            this.btnCotizaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCotizaciones.UseVisualStyleBackColor = true;
+            this.btnCotizaciones.Click += new System.EventHandler(this.btnCotizaciones_Click);
+            // 
+            // btnCerrarCaja
+            // 
+            this.btnCerrarCaja.FlatAppearance.BorderSize = 0;
+            this.btnCerrarCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarCaja.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarCaja.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btnCerrarCaja.Image = global::Caja.Properties.Resources.candado;
+            this.btnCerrarCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarCaja.Location = new System.Drawing.Point(0, 218);
+            this.btnCerrarCaja.Name = "btnCerrarCaja";
+            this.btnCerrarCaja.Size = new System.Drawing.Size(218, 54);
+            this.btnCerrarCaja.TabIndex = 8;
+            this.btnCerrarCaja.Text = "Cerrar Caja";
+            this.btnCerrarCaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCerrarCaja.UseVisualStyleBackColor = true;
             // 
             // btnCuadreTransacciones
             // 
@@ -235,30 +260,6 @@
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelContenedor.Location = new System.Drawing.Point(218, 28);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(952, 586);
-            this.panelContenedor.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.panel2.Controls.Add(this.btnMaximizar);
-            this.panel2.Controls.Add(this.btnMinimizar);
-            this.panel2.Controls.Add(this.btnCerrar);
-            this.panel2.Controls.Add(this.btnRestaurar);
-            this.panel2.Location = new System.Drawing.Point(218, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(952, 27);
-            this.panel2.TabIndex = 5;
-            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
-            // 
             // btnMaximizar
             // 
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -324,14 +325,15 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplicación de caja: Menú Principal";
             this.Load += new System.EventHandler(this.frm_Principal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();

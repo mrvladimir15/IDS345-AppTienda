@@ -81,6 +81,12 @@
     <Compile Include="frm_AperturaCierre.Designer.cs">
       <DependentUpon>frm_AperturaCierre.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Cotizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Cotizaciones.Designer.cs">
+      <DependentUpon>frm_Cotizaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Facturacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     <Compile Include="Cache\RolesUsuarios.cs" />
     <EmbeddedResource Include="frm_AperturaCierre.resx">
       <DependentUpon>frm_AperturaCierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Cotizaciones.resx">
+      <DependentUpon>frm_Cotizaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Facturacion.resx">
       <DependentUpon>frm_Facturacion.cs</DependentUpon>

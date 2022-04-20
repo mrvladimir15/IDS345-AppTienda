@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvDetalleFactura = new System.Windows.Forms.DataGridView();
             this.btnNuevaFactura = new System.Windows.Forms.Button();
@@ -59,12 +61,16 @@
             this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.usuariosTableAdapter = new Caja.DS_LoginTableAdapters.UsuariosTableAdapter();
             this.facturaDetalleTableAdapter = new Caja.DS_LoginTableAdapters.FacturaDetalleTableAdapter();
+            this.fKMovimientosCajaUsuarioIDBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.fKAperturaCierreCajaUsuarioIDBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleFactura)).BeginInit();
             this.panelNuevaFactura.SuspendLayout();
             this.panelDetalleFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.facturaDetalleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dS_Login)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fKMovimientosCajaUsuarioIDBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fKAperturaCierreCajaUsuarioIDBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -79,13 +85,36 @@
             // 
             // dgvDetalleFactura
             // 
-            this.dgvDetalleFactura.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
-            this.dgvDetalleFactura.Location = new System.Drawing.Point(14, 164);
+            this.dgvDetalleFactura.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDetalleFactura.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvDetalleFactura.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDetalleFactura.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvDetalleFactura.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDetalleFactura.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDetalleFactura.EnableHeadersVisualStyles = false;
+            this.dgvDetalleFactura.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(173)))), ((int)(((byte)(125)))));
+            this.dgvDetalleFactura.Location = new System.Drawing.Point(99, 169);
             this.dgvDetalleFactura.MultiSelect = false;
             this.dgvDetalleFactura.Name = "dgvDetalleFactura";
             this.dgvDetalleFactura.ReadOnly = true;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(102)))), ((int)(((byte)(95)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDetalleFactura.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvDetalleFactura.RowHeadersVisible = false;
             this.dgvDetalleFactura.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDetalleFactura.Size = new System.Drawing.Size(895, 271);
+            this.dgvDetalleFactura.Size = new System.Drawing.Size(743, 271);
             this.dgvDetalleFactura.TabIndex = 17;
             // 
             // btnNuevaFactura
@@ -190,7 +219,6 @@
             this.label9.Size = new System.Drawing.Size(43, 18);
             this.label9.TabIndex = 15;
             this.label9.Text = "ITBIS:";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -201,7 +229,6 @@
             this.label10.Size = new System.Drawing.Size(71, 18);
             this.label10.TabIndex = 14;
             this.label10.Text = "Subtotal:";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // btnFinalizarFactura
             // 
@@ -269,7 +296,6 @@
             this.label6.Size = new System.Drawing.Size(177, 18);
             this.label6.TabIndex = 3;
             this.label6.Text = "Cantidad de producto:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -280,7 +306,6 @@
             this.label5.Size = new System.Drawing.Size(164, 18);
             this.label5.TabIndex = 2;
             this.label5.Text = "Código de producto:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // lblTotalPagar
             // 
@@ -396,6 +421,16 @@
             // 
             this.facturaDetalleTableAdapter.ClearBeforeFill = true;
             // 
+            // fKMovimientosCajaUsuarioIDBindingSource
+            // 
+            this.fKMovimientosCajaUsuarioIDBindingSource.DataMember = "FK_MovimientosCaja.UsuarioID";
+            this.fKMovimientosCajaUsuarioIDBindingSource.DataSource = this.usuariosBindingSource;
+            // 
+            // fKAperturaCierreCajaUsuarioIDBindingSource
+            // 
+            this.fKAperturaCierreCajaUsuarioIDBindingSource.DataMember = "FK_AperturaCierreCaja.UsuarioID";
+            this.fKAperturaCierreCajaUsuarioIDBindingSource.DataSource = this.usuariosBindingSource;
+            // 
             // frm_Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -417,6 +452,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.facturaDetalleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dS_Login)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fKMovimientosCajaUsuarioIDBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fKAperturaCierreCajaUsuarioIDBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -454,5 +491,7 @@
         private System.Windows.Forms.GroupBox panelNuevaFactura;
         private System.Windows.Forms.GroupBox panelDetalleFactura;
         private System.Windows.Forms.Label lblAlertaCodigoProducto;
+        private System.Windows.Forms.BindingSource fKMovimientosCajaUsuarioIDBindingSource;
+        private System.Windows.Forms.BindingSource fKAperturaCierreCajaUsuarioIDBindingSource;
     }
 }

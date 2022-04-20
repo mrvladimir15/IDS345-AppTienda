@@ -108,7 +108,6 @@ namespace Caja
                         MetodoPago = cmbMetodoPago.Text.Trim();
 
                         adapterFacturas.proc_InsertarFactura(int.Parse(txtIDCliente.Text), Cache.UsuarioCache.IdUsuario, cmbTipoFactura.Text.Trim(), "Principal", RNC, cmbMetodoPago.Text.Trim());
-                        MessageBox.Show("Factura iniciada satisfactoriamente.", "Acción completada", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ControlesFacturacion();
                         
                         log.Info("Nueva factura creada");
@@ -143,8 +142,8 @@ namespace Caja
         private void LimpiarCampos()
         {
             txtIDCliente.Clear();
-            cmbMetodoPago.SelectedIndex = 0;
-            cmbTipoFactura.SelectedIndex = 0;
+            cmbMetodoPago.Text = "0";
+            cmbTipoFactura.Text = "0";
             txtIDCliente.Focus();
             lblSubtotal.Text = "";
             lblITBIS.Text = "";
@@ -253,26 +252,6 @@ namespace Caja
             }
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
         // Evento enter txtCantidad
         private void txtCantidadProducto_Enter(object sender, EventArgs e)
         {
@@ -280,7 +259,7 @@ namespace Caja
                 txtCantidadProducto.Text = "";
         }
 
-        // Evento cantidad producto
+        // Evento leave cantidad producto
         private void txtCantidadProducto_Leave(object sender, EventArgs e)
         {
             if (txtCantidadProducto.Text.Trim() == "")

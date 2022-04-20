@@ -142,5 +142,11 @@ namespace Caja
             btnMaximizar.Visible = true;
             btnRestaurar.Visible = false;
         }
+
+        // Boton cotizaciones
+        private void btnCotizaciones_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new frm_Cotizaciones());
+        }
     }
 }
