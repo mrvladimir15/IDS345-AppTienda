@@ -309,6 +309,8 @@ namespace Caja
                 adapterMovimientosCaja.proc_MovimientosCaja(int.Parse(adapterAperturaCierre.proc_ObtenerIDAperturaCierre().ToString()), Cache.UsuarioCache.IdUsuario, false, int.Parse(adapterFacturas.proc_UltimaFactura().ToString()), "Efectivo", 0);
 
                 MessageBox.Show("El pago ha sido procesado satisfactoriamente.", "Acción completada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frm_Factura frm_Factura = new frm_Factura();
+                frm_Factura.ShowDialog();
                 log.Info("Pago en efectivo realizado");
             }
             else

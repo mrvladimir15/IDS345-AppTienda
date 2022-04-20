@@ -471,10 +471,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 37);
+            this.label1.Size = new System.Drawing.Size(290, 38);
             this.label1.TabIndex = 65;
             this.label1.Text = "Pagar en efectivo";
             // 
@@ -548,7 +548,7 @@
             this.groupBox1.Controls.Add(this.lblITBIS);
             this.groupBox1.Controls.Add(this.lblTotalPagar);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(536, 176);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(261, 205);
@@ -601,7 +601,7 @@
             // 
             // gbInsertarEfectivo
             // 
-            this.gbInsertarEfectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbInsertarEfectivo.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
             this.gbInsertarEfectivo.Location = new System.Drawing.Point(21, 71);
             this.gbInsertarEfectivo.Name = "gbInsertarEfectivo";
             this.gbInsertarEfectivo.Size = new System.Drawing.Size(497, 415);
@@ -641,6 +641,7 @@
             this.gbDevuelta.Controls.Add(this.DOP10);
             this.gbDevuelta.Controls.Add(this.DOP5);
             this.gbDevuelta.Controls.Add(this.DOP1);
+            this.gbDevuelta.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
             this.gbDevuelta.Location = new System.Drawing.Point(21, 71);
             this.gbDevuelta.Name = "gbDevuelta";
             this.gbDevuelta.Size = new System.Drawing.Size(497, 415);
@@ -852,11 +853,11 @@
             // DOP2000
             // 
             this.DOP2000.Enabled = false;
-            this.DOP2000.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP2000.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP2000.Location = new System.Drawing.Point(424, 362);
             this.DOP2000.MaxLength = 5;
             this.DOP2000.Name = "DOP2000";
-            this.DOP2000.Size = new System.Drawing.Size(49, 24);
+            this.DOP2000.Size = new System.Drawing.Size(49, 26);
             this.DOP2000.TabIndex = 74;
             this.DOP2000.Text = "0";
             this.DOP2000.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -864,11 +865,11 @@
             // DOP1000
             // 
             this.DOP1000.Enabled = false;
-            this.DOP1000.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP1000.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP1000.Location = new System.Drawing.Point(424, 296);
             this.DOP1000.MaxLength = 5;
             this.DOP1000.Name = "DOP1000";
-            this.DOP1000.Size = new System.Drawing.Size(49, 24);
+            this.DOP1000.Size = new System.Drawing.Size(49, 26);
             this.DOP1000.TabIndex = 73;
             this.DOP1000.Text = "0";
             this.DOP1000.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -876,11 +877,11 @@
             // DOP500
             // 
             this.DOP500.Enabled = false;
-            this.DOP500.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP500.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP500.Location = new System.Drawing.Point(424, 230);
             this.DOP500.MaxLength = 5;
             this.DOP500.Name = "DOP500";
-            this.DOP500.Size = new System.Drawing.Size(49, 24);
+            this.DOP500.Size = new System.Drawing.Size(49, 26);
             this.DOP500.TabIndex = 72;
             this.DOP500.Text = "0";
             this.DOP500.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -888,11 +889,11 @@
             // DOP200
             // 
             this.DOP200.Enabled = false;
-            this.DOP200.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP200.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP200.Location = new System.Drawing.Point(424, 164);
             this.DOP200.MaxLength = 5;
             this.DOP200.Name = "DOP200";
-            this.DOP200.Size = new System.Drawing.Size(49, 24);
+            this.DOP200.Size = new System.Drawing.Size(49, 26);
             this.DOP200.TabIndex = 71;
             this.DOP200.Text = "0";
             this.DOP200.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -900,11 +901,11 @@
             // DOP100
             // 
             this.DOP100.Enabled = false;
-            this.DOP100.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP100.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP100.Location = new System.Drawing.Point(423, 95);
             this.DOP100.MaxLength = 5;
             this.DOP100.Name = "DOP100";
-            this.DOP100.Size = new System.Drawing.Size(49, 24);
+            this.DOP100.Size = new System.Drawing.Size(49, 26);
             this.DOP100.TabIndex = 70;
             this.DOP100.Text = "0";
             this.DOP100.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -912,11 +913,11 @@
             // DOP50
             // 
             this.DOP50.Enabled = false;
-            this.DOP50.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP50.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP50.Location = new System.Drawing.Point(423, 29);
             this.DOP50.MaxLength = 5;
             this.DOP50.Name = "DOP50";
-            this.DOP50.Size = new System.Drawing.Size(49, 24);
+            this.DOP50.Size = new System.Drawing.Size(49, 26);
             this.DOP50.TabIndex = 69;
             this.DOP50.Text = "0";
             this.DOP50.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -924,12 +925,12 @@
             // DOP25
             // 
             this.DOP25.Enabled = false;
-            this.DOP25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP25.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DOP25.Location = new System.Drawing.Point(172, 288);
             this.DOP25.MaxLength = 5;
             this.DOP25.Name = "DOP25";
-            this.DOP25.Size = new System.Drawing.Size(49, 24);
+            this.DOP25.Size = new System.Drawing.Size(49, 26);
             this.DOP25.TabIndex = 68;
             this.DOP25.Text = "0";
             this.DOP25.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -937,11 +938,11 @@
             // DOP10
             // 
             this.DOP10.Enabled = false;
-            this.DOP10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP10.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP10.Location = new System.Drawing.Point(172, 226);
             this.DOP10.MaxLength = 5;
             this.DOP10.Name = "DOP10";
-            this.DOP10.Size = new System.Drawing.Size(49, 24);
+            this.DOP10.Size = new System.Drawing.Size(49, 26);
             this.DOP10.TabIndex = 67;
             this.DOP10.Text = "0";
             this.DOP10.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -949,11 +950,11 @@
             // DOP5
             // 
             this.DOP5.Enabled = false;
-            this.DOP5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP5.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP5.Location = new System.Drawing.Point(172, 164);
             this.DOP5.MaxLength = 5;
             this.DOP5.Name = "DOP5";
-            this.DOP5.Size = new System.Drawing.Size(49, 24);
+            this.DOP5.Size = new System.Drawing.Size(49, 26);
             this.DOP5.TabIndex = 66;
             this.DOP5.Text = "0";
             this.DOP5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -961,11 +962,11 @@
             // DOP1
             // 
             this.DOP1.Enabled = false;
-            this.DOP1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DOP1.Font = new System.Drawing.Font("Century Gothic", 11.25F);
             this.DOP1.Location = new System.Drawing.Point(171, 95);
             this.DOP1.MaxLength = 5;
             this.DOP1.Name = "DOP1";
-            this.DOP1.Size = new System.Drawing.Size(49, 24);
+            this.DOP1.Size = new System.Drawing.Size(49, 26);
             this.DOP1.TabIndex = 65;
             this.DOP1.Text = "0";
             this.DOP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -975,6 +976,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(812, 519);
+            this.Controls.Add(this.gbDevuelta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label10);
@@ -1008,7 +1010,6 @@
             this.Controls.Add(this.txt5Pesos);
             this.Controls.Add(this.txt1Peso);
             this.Controls.Add(this.gbInsertarEfectivo);
-            this.Controls.Add(this.gbDevuelta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_PagoEfectivo";

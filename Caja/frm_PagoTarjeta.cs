@@ -68,8 +68,11 @@ namespace Caja
                     adapterMovimientosCaja.proc_MovimientosCaja(int.Parse(adapterAperturaCierre.proc_ObtenerIDAperturaCierre().ToString()), Cache.UsuarioCache.IdUsuario, true, int.Parse(adapterFacturas.proc_UltimaFactura().ToString()), "Tarjeta", decimal.Parse(adapterFacturas.proc_MostrarTotalBruto(IdFactura).ToString()));
 
                     MessageBox.Show("El pago ha sido procesado satisfactoriamente.", "Acción completada", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    log.Info("Pago con tarjeta realizado");
 
+                    frm_Factura frm_Factura = new frm_Factura();
+                    frm_Factura.Show();
+                    log.Info("Pago con tarjeta realizado");
+                    
                     facturacion.estadoFacturacion = false;
                     facturacion.ControlesFacturacion();
                     this.Hide();
